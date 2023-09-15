@@ -6,10 +6,11 @@ namespace CoddingTests
     {
         static void Main(string[] args)
         {
-            var parser = new BracketParser();
-            parser.RunTest();
-            Console.WriteLine(parser.ValidateStringBrackets(null));
-            parser.ValidateStringBrackets(null);
+            var reverse = new Reverse();
+            Console.WriteLine(reverse.ReverseCharactersOfWordsInString(null));
+            Console.WriteLine(reverse.ReverseCharactersOfWordsInString("the   blue car"));
+            Console.WriteLine(reverse.ReverseCharactersOfWordsInString(string.Empty));
+            Console.WriteLine(reverse.ReverseCharactersOfWordsInString("the   blue car @#        d      s   $%^^&*(("));
             Console.Read();
         }
     }

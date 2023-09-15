@@ -49,6 +49,7 @@
     <Compile Include="InterviewTests\BracketParser.cs" />
     <Compile Include="InterviewTests\CountRepeatedCharactersInString.cs" />
     <Compile Include="InterviewTests\FindNumberCountsInArray.cs" />
+    <Compile Include="InterviewTests\Reverse.cs" />
     <Compile Include="InterviewTests\SortCsvByColumn.cs" />
     <Compile Include="InterviewTests\StarPrintTringle.cs" />
     <Compile Include="InterviewTests\StringShorting.cs" />
