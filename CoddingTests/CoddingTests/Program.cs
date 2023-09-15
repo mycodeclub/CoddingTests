@@ -6,12 +6,11 @@ namespace CoddingTests
     {
         static void Main(string[] args)
         {
-            FindCharCounts.FindNumberCountsFromIntArray(null);
-            // Fuzz Bizz 
-            //       var bizzFuzz = new BizzFuzz() { };
-            //       bf.PrintBizzFuzz();
+            var parser = new BracketParser();
+            parser.RunTest();
+            Console.WriteLine(parser.ValidateStringBrackets(null));
+            parser.ValidateStringBrackets(null);
             Console.Read();
-
         }
     }
 }

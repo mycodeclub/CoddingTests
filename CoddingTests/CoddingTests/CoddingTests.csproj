@@ -46,6 +46,7 @@
     <Compile Include="AddTwoBigNumber.cs" />
     <Compile Include="InterviewTests\ArraySorting.cs" />
     <Compile Include="InterviewTests\BizzFuzz.cs" />
+    <Compile Include="InterviewTests\BracketParser.cs" />
     <Compile Include="InterviewTests\CountRepeatedCharactersInString.cs" />
     <Compile Include="InterviewTests\FindNumberCountsInArray.cs" />
     <Compile Include="InterviewTests\SortCsvByColumn.cs" />
